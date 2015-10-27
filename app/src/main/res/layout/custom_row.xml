@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/image_profile_bg"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/bg" />
+
+        <ImageView
+            android:id="@+id/image_profile_pp"
+            android:layout_width="39dp"
+            android:layout_height="39dp"
+            android:layout_alignBottom="@+id/image_profile_bg"
+            android:layout_margin="17dp"
+            android:src="@drawable/circle_profile" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/text_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Nama Profile"
+        android:textColor="#000"
+        android:textSize="12dp" />
+
+    <TextView
+        android:id="@+id/text_answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Question ?"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="15dp" />
+
+    <LinearLayout
+        android:id="@+id/long_answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/long_one"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longAnswer1" />
+
+        <Button
+            android:id="@+id/long_two"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longAnswer2" />
+
+        <Button
+            android:id="@+id/long_three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longAnswer3" />
+
+        <Button
+            android:id="@+id/long_four"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="longAnswer4" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/short_four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/answerOne"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answerOne" />
+
+            <Button
+                android:id="@+id/answerTwo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answerTwo" />
+
+            <Button
+                android:id="@+id/short_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ShortThree"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/short_two"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/answerThree"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answerThreeasqwer" />
+
+            <Button
+                android:id="@+id/answerFour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="answerFour" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+
+    <!--<LinearLayout--><!--android:id="@+id/layout_two"--><!--android:layout_width="match_parent"--><!--android:layout_height="wrap_content"--><!--android:layout_marginTop="16dp"--><!--android:orientation="vertical">-->
+
+    <!--<ImageView--><!--android:id="@+id/image_profile_two"--><!--android:layout_width="match_parent"--><!--android:layout_height="250dp"--><!--android:layout_gravity="center"--><!--android:scaleType="centerCrop"--><!--android:src="@drawable/bg" />-->
+
+    <!--<TextView--><!--android:id="@+id/text_name_two"--><!--android:layout_width="wrap_content"--><!--android:layout_height="wrap_content"--><!--android:layout_marginLeft="10dp"--><!--android:text="Nama Prfile"--><!--android:textColor="#000"--><!--android:textSize="20dp" />-->
+
+    <!--</LinearLayout>-->
